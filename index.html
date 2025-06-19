@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voice Command Classifier</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Voice Command Classifier</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Voice Command Detection</h1>
-    <button onclick="init()">Start Listening</button>
-    <div id="current-label">Waiting for command...</div>
+  <h1>Voice Command Detection</h1>
+  <button id="start-btn" onclick="init()">Start Listening</button>
+  <button id="stop-btn" onclick="stop()">Stop Listening</button>
+  <div id="current-label">Waiting for command...</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
-    <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
