@@ -1,4 +1,4 @@
-const URL = "https://teachablemachine.withgoogle.com/models/ogymsf3mV/";
+const URL = "https://teachablemachine.withgoogle.com/models/Jvgd18jdG/";
 
 let recognizer;
 let lastDetected = "";
